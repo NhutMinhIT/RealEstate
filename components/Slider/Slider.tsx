@@ -5,7 +5,7 @@ import { Carousel } from 'flowbite-react';
 
 const Slider = () => {
     return (
-        <Carousel slideInterval={5000} leftControl=' ' rightControl=' ' wrapAround={false} >
+        <Carousel slideInterval={5000} leftControl=' ' rightControl=' '>
             {[
                 { url: '/slider1.png' },
                 { url: '/slider2.png' },
