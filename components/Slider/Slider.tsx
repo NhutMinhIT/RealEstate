@@ -5,7 +5,12 @@ import { Carousel } from 'flowbite-react';
 
 const Slider = () => {
     return (
-        <Carousel slideInterval={5000} leftControl=' ' rightControl=' '>
+        <Carousel
+            slideInterval={5000}
+            leftControl=' '
+            rightControl=' '
+            draggable={false}
+        >
             {[
                 { url: '/slider1.png' },
                 { url: '/slider2.png' },
@@ -13,14 +18,17 @@ const Slider = () => {
                 { url: '/slider4.png' },
                 { url: '/slider5.png' },
                 { url: '/slider6.png' },
-
+                { url: '/slider7.png' },
+                { url: '/slider8.png' },
+                { url: '/slider9.png' },
+                { url: '/slider10.png' },
             ].map((item, index) => (
                 <div
                     key={index}
-                    className='flex justify-center w-full h-screen bg-cover bg-center relative'
+                    className='flex justify-center w-full h-[90vh] bg-cover bg-center relative'
                     style={{
                         backgroundImage: `url(${item.url})`,
-                        filter: "brightness(95%)",
+                        filter: "brightness(100%)",
                     }}
                 >
                     <div className="text-center relative pt-36 text-white z-10" style={{
