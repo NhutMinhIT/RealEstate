@@ -16,32 +16,32 @@ const MenuComponent = () => {
                             src='/logo.png'
                             alt='logo'
                             width={150}
-                            height={34}
+                            height={33}
                         />
                     </Link>
                 </div>
-                <div className='text-white font-[500] '>
-                    <ul className='flex space-x-10 mr-28 group'>
-                        <li className='border-b-1'>
-                            <Link href='/introduction'>3DART</Link>
+                <div className='text-white font-[500]'>
+                    <ul className='flex mr-28 group'>
+                        <li className=''>
+                            <Link className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4' href='/introduction'>3DART</Link>
                         </li>
                         <li className=''>
-                            <Link href='/home' className='hover:border-b-4 transition-border pb-6 focus:border-b-4'>Trang chủ</Link>
+                            <Link href='/home' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Trang chủ</Link>
                         </li>
                         <li className=''>
-                            <Link href='/investor' className='hover:border-b-4 transition-border pb-6 focus:border-b-4'>Chủ đầu tư</Link>
+                            <Link href='/investor' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Chủ đầu tư</Link>
                         </li>
                         <li className=''>
-                            <Link href='#' className='hover:border-b-4 transition-border pb-6 focus:border-b-4'>Sa bàn ảo</Link>
-                        </li>
-                        <li className='b'>
-                            <Link href='#' className='hover:border-b-4 transition-border pb-6 focus:border-b-4'>Thông tin</Link>
+                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Sa bàn ảo</Link>
                         </li>
                         <li className=''>
-                            <Link href='#' className='hover:border-b-4 transition-border pb-6 focus:border-b-4'>Tin tức</Link>
+                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Thông tin</Link>
                         </li>
                         <li className=''>
-                            <Link href='#' className='hover:border-b-4 transition-border pb-6 focus:border-b-4'>Liên hệ</Link>
+                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Tin tức</Link>
+                        </li>
+                        <li className=''>
+                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Liên hệ</Link>
                         </li>
                     </ul>
                 </div>

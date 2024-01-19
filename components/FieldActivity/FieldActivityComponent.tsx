@@ -16,8 +16,9 @@ const FieldActivityComponent = () => {
                             alt='architecture'
                             width={500}
                             height={337}
-                            className='transition-transform duration-200 ease-in-out transform scale-100 group-hover:scale-105 opacity-70 hover:opacity-100'
+                            className='transition-transform duration-200 ease-in-out transform opacity-70 hover:opacity-100'
                         />
+                        <h1 className='font-[600] text-[24px] text-[#fff] mt-[12px] text-center uppercase'>Diễn họa kiến trúc</h1>
                     </Link>
                 </div>
                 <div className='relative group'>
@@ -27,8 +28,10 @@ const FieldActivityComponent = () => {
                             alt='Số Hóa'
                             width={500}
                             height={337}
-                            className='transition-transform duration-200 ease-in-out transform scale-100 group-hover:scale-105 opacity-70 hover:opacity-100'
+                            className='transition-transform duration-200 ease-in-out transform opacity-70 hover:opacity-100'
+                        // đổi form scale-100 group-hover:scale-105 
                         />
+                        <h1 className='font-[600] text-[24px] text-[#fff] mt-[12px] text-center uppercase'>Số hóa và công nghệ</h1>
                     </Link>
                 </div>
             </div>
