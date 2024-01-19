@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import FieldActivityComponent from '@/components/FieldActivity/FieldActivityComponent';
 import Footer from '@/components/Footer/Footer';
 
-const HomePage = () => {
+const Introduction = () => {
     return (
         <div>
             <div className='relative'>
@@ -42,4 +42,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default Introduction;
