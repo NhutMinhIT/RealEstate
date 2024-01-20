@@ -5,13 +5,12 @@ import React from 'react'
 const Home = () => {
     return (
         <div>
-            <div>
+            <div className='relative'>
                 <MenuComponent />
             </div>
-            <div>
+            <div className=''>
                 <Slider />
             </div>
-
         </div>
 
     )
