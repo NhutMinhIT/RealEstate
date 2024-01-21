@@ -4,6 +4,7 @@ import FieldActivityComponent from '@/components/FieldActivity/FieldActivityComp
 import Footer from '@/components/Footer/Footer';
 
 const Introduction = () => {
+
     return (
         <div>
             <div className='relative'>
