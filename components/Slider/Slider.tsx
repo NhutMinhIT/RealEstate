@@ -23,7 +23,7 @@ const Slider = () => {
             ].map((item, index) => (
                 <div
                     key={index}
-                    className='flex justify-center w-full h-[90vh] bg-cover bg-center relative'
+                    className='flex justify-center w-full h-[92vh] bg-cover bg-center relative'
                     style={{
                         backgroundImage: `url(${item.url})`,
                         filter: "brightness(100%)",
@@ -44,7 +44,7 @@ const Slider = () => {
                         </div>
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-b from-[#28292c] via-transparent to-transparent"></div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#28292c] via-transparent to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t  from-[#D3D3C1] via-transparent to-transparent"></div>
                 </div>
             ))}
         </Carousel>

@@ -24,7 +24,7 @@ const MenuComponent = () => {
     }
 
     return (
-        <div className='bg-[#212529] z-10 w-full shadow-xl'>
+        <div className='bg-[#212529] z-1303 w-full shadow-xl '>
             <nav className='flex items-center justify-center py-6 h-full w-full lg:container lg:mx-auto'>
                 <div className='mr-auto sm:flex'>
                     <Link href='/introduction'>
