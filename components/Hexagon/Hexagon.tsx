@@ -4,8 +4,15 @@ const Hexagon = () => {
     return (
         <div className='w-full max-w-[1688px] mx-auto'>
             <div className='flex relative justify-center z-1 w-full'>
-                <div className='relative lg:w-[300px] lg:h-[300px] w-[20vw] h-[20vw] mx-[-0.5%]' >
-                    <div className='absolute inset-0 bg-black clip-path-mypolygon'></div>
+                <div className='relative lg:w-[300px] lg:h-[300px] w-[20vw] h-[20vw] mx-[-0.5%]'>
+                    <div className='absolute inset-0 bg-black clip-path-mypolygon
+                    items-center justify-center w-full h-full bg-cover bg-center
+                    '
+                        style={{
+                            backgroundImage: "url(/hexagon-img1.png)",
+                            filter: "brightness(95%)",
+                        }}>
+                    </div>
                 </div>
                 <div className='relative lg:w-[300px] lg:h-[300px] w-[20vw] h-[20vw] mx-[-0.5%]'>
                     <div className='absolute inset-0 bg-black clip-path-mypolygon'></div>

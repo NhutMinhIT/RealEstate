@@ -1,4 +1,5 @@
 import Hexagon from '@/components/Hexagon/Hexagon'
+import HomeFooter from '@/components/HomeFooter/HomeFooter'
 import MenuComponent from '@/components/Menu/MenuComponent'
 import Slider from '@/components/Slider/Slider'
 import React from 'react'
@@ -17,7 +18,10 @@ const Home = () => {
                 <Hexagon />
             </div>
 
-        </div>
+            <div>
+                <HomeFooter />
+            </div>
+        </div >
 
     )
 }
