@@ -13,7 +13,7 @@ const Home = () => {
             <div>
                 <Slider />
             </div>
-            <div className='bg-[#ded9c4] pt-1 max-sm:w-full'>
+            <div className='bg-[#ded9c4] pt-1'>
                 <Hexagon />
             </div>
 

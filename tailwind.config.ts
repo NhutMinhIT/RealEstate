@@ -12,7 +12,7 @@ module.exports = {
   theme: {
     extend: {},
     clipPath: {
-      mypolygon: "polygon(0 25%, 50% 0, 100% 25%,100% 75%,50% 100%, 0 75%)",
+      mypolygon: "polygon(50% 0,95% 25%,95% 75%,50% 100%,5% 75%,5% 25%)",
     },
   },
   plugins: [require("flowbite/plugin"), require("tailwind-clip-path")],
