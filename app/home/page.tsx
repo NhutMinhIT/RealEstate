@@ -11,6 +11,7 @@ const Home = () => {
             <div className='relative'>
                 <MenuComponent />
             </div>
+
             <div>
                 <Slider />
             </div>
