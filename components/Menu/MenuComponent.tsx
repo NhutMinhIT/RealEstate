@@ -24,45 +24,45 @@ const MenuComponent = () => {
     }
 
     return (
-        <div className='lg:bg-[#000] lg:opacity-50 w-full shadow-xl z-50 fixed'>
-            <nav className='flex items-center justify-center py-6 h-full w-full lg:container  inset-0 lg:mx-auto mx-auto'>
+        <div className='lg:bg-[#000] lg:bg-opacity-50 w-full shadow-xl z-50 fixed'>
+            <nav className='flex items-center justify-center py-6 h-full w-full lg:container inset-0 lg:mx-auto mx-auto'>
                 <div className='mr-auto sm:flex'>
                     <Link href='/introduction'>
                         <Image
-                            className='mx-[100px] top-0 left-0'
+                            className='mr-[100px] top-0 left-0'
                             src='/logo.png'
                             alt='logo'
                             width={150}
-                            height={33}
+                            height={34}
                         />
                     </Link>
                 </div>
-                <div className='text-white font-[500] hidden sm:flex'>
+                <div className='hidden sm:flex text-[18px] font-[400]  text-[#ffffff] font-montserrat'>
                     <ul className='mr-28 group hidden sm:flex'>
-                        <li className=''>
-                            <Link className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4' href='/introduction'>3DART</Link>
+                        <li>
+                            <Link className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4 font-montserrat' href='/introduction'>3DART</Link>
                         </li>
                         <li className=''>
-                            <Link href='/home' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Trang chủ</Link>
+                            <Link href='/home' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4 font-montserrat'>Trang chủ</Link>
                         </li>
                         <li className=''>
-                            <Link href='/investor' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Chủ đầu tư</Link>
+                            <Link href='/investor' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4 font-montserrat'>Chủ đầu tư</Link>
                         </li>
                         <li className=''>
-                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Sa bàn ảo</Link>
+                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4 font-montserrat'>Sa bàn ảo</Link>
                         </li>
                         <li className=''>
-                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Thông tin</Link>
+                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4 font-montserrat'>Thông tin</Link>
                         </li>
                         <li className=''>
-                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Tin tức</Link>
+                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4 font-montserrat'>Tin tức</Link>
                         </li>
                         <li className=''>
-                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4'>Liên hệ</Link>
+                            <Link href='#' className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4 font-montserrat'>Liên hệ</Link>
                         </li>
                     </ul>
                 </div>
-                <div className=' items-center relative hidden sm:flex'>
+                <div className='items-center relative hidden sm:flex'>
                     <input type='text' placeholder='Tìm kiếm dự án' className='h-8 rounded-md font text-lg bg-[#464646ef] text-white' />
                     <IoIosSearch
                         className='                        
@@ -75,7 +75,7 @@ const MenuComponent = () => {
                 <div>
                     <div
                         onClick={toggleMenu}
-                        className='sm:hidden cursor-pointer pr-[24px]'>
+                        className='sm:hidden cursor-pointer pr-[3rem]'>
                         <BsListUl
                             className='h-8 w-8 text-[#ffffff]'
 
@@ -110,7 +110,7 @@ const MenuComponent = () => {
                             <input type='text' placeholder='Tìm kiếm dự án' className='h-6 rounded-md px-5 mx-2 my-5 font-[300] text-sm bg-[#2a2c38] text-white' />
                             <IoIosSearch
                                 className='                        
-                        absolute right-8 top-1/2 
+                        absolute right-16 top-1/2 
                         transform -translate-y-1/2 cursor-pointer
                         w-[20px] h-[24px] text-white font-bold'
                             />

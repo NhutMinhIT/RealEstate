@@ -18,9 +18,7 @@ const Hexagon = () => {
                                 filter: "brightness(95%)",
                             }}>
                             <p className="text-[20px] absolute bottom-24 drop-shadow-lg text-white shadow-black 
-                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto
-                                
-                                 ">
+                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto font-montserrat">
                                 Sun Marina Town Hạ Long
                             </p>
                         </div>
@@ -41,7 +39,7 @@ const Hexagon = () => {
                             }}
                         >
                             <p className="text-[20px] absolute bottom-24 drop-shadow-lg text-white shadow-black 
-                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto">
+                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto font-montserrat">
                                 Sun Starbay Phú Quốc
                             </p>
                         </div>
@@ -61,7 +59,7 @@ const Hexagon = () => {
                             }}
                         >
                             <p className="text-[20px] absolute bottom-24 drop-shadow-lg text-white shadow-black 
-                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto">
+                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto font-montserrat">
                                 Sun Grand City Hillside Residence Phú Quốc
                             </p>
                         </div>
@@ -81,7 +79,7 @@ const Hexagon = () => {
                             }}
                         >
                             <p className="text-[20px] absolute bottom-24 drop-shadow-lg text-white shadow-black 
-                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto">
+                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto font-montserrat">
                                 Green Dragon city
                             </p>
                         </div>
@@ -101,7 +99,7 @@ const Hexagon = () => {
                             }}
                         >
                             <p className="text-[20px] absolute bottom-24 drop-shadow-lg text-white shadow-black 
-                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto">
+                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto font-montserrat">
                                 Seahorse Cam Ranh
                             </p>
                         </div>
@@ -123,7 +121,7 @@ const Hexagon = () => {
                                 }}
                             >
                                 <p className="text-[20px] absolute bottom-24 drop-shadow-lg text-white shadow-black 
-                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto">
+                                 mt-[60px] py-0 px-[40px] uppercase text-center mx-auto font-montserrat">
                                     TMS Residence Quy Nhơn
                                 </p>
                             </div>

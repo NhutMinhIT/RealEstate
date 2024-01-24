@@ -15,11 +15,9 @@ const Home = () => {
             <div>
                 <Slider />
             </div>
-
             <div className='bg-[#ded9c4] pt-1'>
                 <Hexagon />
             </div>
-
             <div>
                 <HomeFooter />
             </div>

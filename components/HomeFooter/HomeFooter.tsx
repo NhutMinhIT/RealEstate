@@ -17,7 +17,7 @@ const HomeFooter = () => {
                     <div>
                         <div className='absolute border-b-[1px] border-white inset-x-0 bottom-[60px] lg:left-40 lg:right-40 lg:bottom-[60px]'>
                             <div className='absolute text-center justify-center items-center inset-x-0 py-4'>
-                                <p className='text-opacity-1 italic text-white text-[16px]'>
+                                <p className='text-opacity-1 italic text-white text-[18px] font-montserrat'>
                                     Copyright Ⓒ 2023 3Dart. All rights reserved
                                 </p>
                             </div>
