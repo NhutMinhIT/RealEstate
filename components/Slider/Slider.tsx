@@ -29,9 +29,7 @@ const Slider = () => {
                         filter: "brightness(100%)",
                     }}
                 >
-                    <div className="text-center relative pt-36 text-white z-10" style={{
-                        fontFamily: 'Montserrat, sans-serif'
-                    }}>
+                    <div className="text-center relative pt-36 text-white z-10 font-montserrat">
                         <h1 className="text-[60px] font-[300] mb-3 uppercase">
                             3DART - THE CREATIVE LAND
                         </h1>

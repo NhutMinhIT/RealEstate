@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,6 +14,9 @@ module.exports = {
     extend: {},
     clipPath: {
       mypolygon: "polygon(50% 0,95% 25%,95% 75%,50% 100%,5% 75%,5% 25%)",
+    },
+    fontFamily: {
+      montserrat: ["Montserrat", "sans-serif"],
     },
   },
   plugins: [require("flowbite/plugin"), require("tailwind-clip-path")],
