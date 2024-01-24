@@ -24,12 +24,12 @@ const MenuComponent = () => {
     }
 
     return (
-        <div className='lg:bg-[#000] lg:bg-opacity-50 w-full shadow-xl z-50 fixed'>
-            <nav className='flex items-center justify-center py-6 h-full w-full lg:container inset-0 lg:mx-auto mx-auto'>
-                <div className='mr-auto sm:flex'>
+        <div className='bg-[#000] bg-opacity-50 lg:bg-[#000] lg:bg-opacity-50 w-screen shadow-xl z-50 fixed py-6'>
+            <nav className='flex items-center justify-between  h-full w-full inset-0'>
+                <div className='sm:flex'>
                     <Link href='/introduction'>
                         <Image
-                            className='mr-[100px] top-0 left-0'
+                            className='mx-[100px] top-0 left-0'
                             src='/logo.png'
                             alt='logo'
                             width={150}
@@ -37,8 +37,8 @@ const MenuComponent = () => {
                         />
                     </Link>
                 </div>
-                <div className='hidden sm:flex text-[18px] font-[400]  text-[#ffffff] font-montserrat'>
-                    <ul className='mr-28 group hidden sm:flex'>
+                <div className='mx-auto lg:ml-[100px] hidden sm:flex text-[18px] font-[400] text-[#ffffff] font-montserrat'>
+                    <ul className='group hidden sm:flex'>
                         <li>
                             <Link className='transition-border hover:border-b-4 hover:bg-white hover:bg-opacity-30 focus:border-b-4 focus:bg-white focus:bg-opacity-30 pb-[26px] pt-[26px] px-4 font-montserrat' href='/introduction'>3DART</Link>
                         </li>
@@ -62,11 +62,11 @@ const MenuComponent = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='items-center relative hidden sm:flex'>
-                    <input type='text' placeholder='Tìm kiếm dự án' className='h-8 rounded-md font text-lg bg-[#464646ef] text-white' />
+                <div className='items-center relative hidden sm:flex mx-auto lg:mx-auto'>
+                    <input type='text' placeholder='Tìm kiếm dự án' className='h-8 w-[90%] rounded-md font text-lg bg-[#464646ef] text-white' />
                     <IoIosSearch
                         className='                        
-                        absolute right-0 top-1/2 
+                        absolute right-8 top-1/2 
                         transform -translate-y-1/2 cursor-pointer
                         w-[40px] h-[24px] text-white font-bold'
                     />
